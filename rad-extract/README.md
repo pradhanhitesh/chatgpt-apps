@@ -6,6 +6,8 @@ This repository contains two Python scripts that work together to extract and pr
 
 2. Text Preprocessing using GPT: Use OpenAI's GPT model to process and format the extracted texts for further use, including classification of findings and extraction of specific fields like location and cause.
 
+3. Text Classification: Use OpenAI's Embeddings Model to process the text and generate embeddings. Then, we perform text classification using basic LazyPredict.
+
 <h2>Requirements</h2>
 Make sure you have the following dependencies installed:
 
