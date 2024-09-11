@@ -34,5 +34,10 @@ system_prompt = {
 
 3. Batch Size for Audio Processing: The script processes audio in chunks of CHUNK = 1024 frames. You can adjust the chunk size or other audio parameters if needed.
 
+<h2>Issues (dated 11-09-2024)</h2>
+
+1. Ambient noise threshold variability
+2. Extracting text from silent audio: Should not happen if the recorded audio is pure silence
+
 <h2>License</h2>
 This project is licensed under the MIT License. See the LICENSE file for more details.
