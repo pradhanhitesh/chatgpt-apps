@@ -1,4 +1,4 @@
-<h1>Real-time Voice Assistant with GPT and Whisper</h1>
+<h1>Delayed-time Voice Assistant with GPT and Whisper</h1>
 
 This project implements a real-time voice assistant using OpenAI's Whisper API for audio transcription and GPT-4 for generating responses. It allows users to speak into a microphone, transcribe the audio in real time, and receive an intelligent response from GPT. The conversation history is stored in a JSON file.
 
@@ -38,6 +38,7 @@ system_prompt = {
 
 1. Ambient noise threshold variability
 2. Extracting text from silent audio: Should not happen if the recorded audio is pure silence
+3. Delayed text abstraction: Ambient thresholding, recording, transcribing, response generatation takes place between two user input and causes a delay
 
 <h2>License</h2>
 This project is licensed under the MIT License. See the LICENSE file for more details.
